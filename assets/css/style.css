@@ -6,13 +6,30 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 35px;
 	font-weight: bold;
-	color: white;
+	color: #ffffff;
 }
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
 	font-weight: bold;
 	color: #4aaaa5;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+}
+
+a:hover {
+	color: lightgrey;
 }
 
 p {
@@ -105,11 +122,14 @@ p {
 }
 
 #icons {
-	float:left;
-	padding: 5px;
-	margin: 5px;
+	float: left;
+	margin: 10px;
 	position: relative;
 	right: -9px;
+}
+
+#icons:hover img{
+    box-shadow: 0px 0px 30px 0px #4aaaa5;
 }
 
 input[type=text], select {
@@ -143,4 +163,20 @@ input[type=submit] {
     border:none;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+}
+
+#portfolioImage {
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+#imageText {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px 0px 15px 0px;
 }
